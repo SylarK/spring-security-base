@@ -11,7 +11,7 @@ Each feature is developed in its own branch to allow isolated testing and explor
 ### Available Features and Branches
 
 - Authentication using X.509 Certificates
-  - Branch: x509Certificate_basis
+  - Branch: [x509Certificate_basis](https://github.com/SylarK/spring-security-base/tree/x509Certificate_basis)
   - **Description**: Provides a setup for X.509 certificate-based authentication. This branch demonstrates how to configure Spring Security to validate client certificates for authentication purposes.
 
 --- 
