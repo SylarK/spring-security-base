@@ -1,4 +1,4 @@
-package pt.amado.ssb_x509_certificate;
+package com.amado.ssb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,3 +11,4 @@ public class SsbX509CertificateApplication {
 	}
 
 }
+

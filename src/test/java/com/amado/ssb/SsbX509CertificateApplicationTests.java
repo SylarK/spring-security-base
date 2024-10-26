@@ -1,4 +1,4 @@
-package pt.amado.ssb_x509_certificate;
+package com.amado.ssb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
