@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Error - X.509 Authentication Demo</title>
+</head>
+<body>
+    <h2>Error</h2>
+    <p th:if="${errorMessage}">
+        <span th:text="${errorMessage}"></span>
+    </p>
+    <p th:unless="${errorMessage}">
+        An unexpected error occurred. Please try again later or contact support.
+    </p>
+    <a href="/">Return to Home</a>
+</body>
+</html>
